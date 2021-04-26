@@ -5,6 +5,7 @@ Asus EX-B460M-V5<br/>
 8G*2 2666<br/>
 SN 550 256G<br/>
 HD630<br/>
+bcm94360cd<br/>
 
 bios设置：<br/>
 vx-d关闭<br/>
