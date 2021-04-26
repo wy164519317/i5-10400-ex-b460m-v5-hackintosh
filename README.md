@@ -4,6 +4,7 @@ i5 10400<br/>
 Asus EX-B460M-V5<br/>
 8G*2 2666<br/>
 SN 550 256G<br/>
+HD630<br/>
 
 bios设置：<br/>
 vx-d关闭<br/>
