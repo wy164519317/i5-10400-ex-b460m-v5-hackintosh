@@ -1,11 +1,11 @@
 # i5-10400-ex-b460m-v5-hackintosh
 配置：<br/>
-i5 10400<br/>
-Asus EX-B460M-V5<br/>
-8G*2 2666<br/>
-SN 550 256G<br/>
-HD630<br/>
-bcm94360cd<br/>
+CPU：i5 10400<br/>
+主板：Asus EX-B460M-V5<br/>
+内存：8G*2 2666<br/>
+硬盘：SN 550 256G<br/>
+显卡：HD630<br/>
+网卡：bcm94360cd<br/>
 
 bios设置：<br/>
 vx-d关闭<br/>
