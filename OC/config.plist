@@ -243,6 +243,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -897,6 +899,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
@@ -1191,7 +1195,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02FG0Z1PN5N</string>
 			<key>SystemUUID</key>
-			<string>C97677F1-04C7-47DE-A53A-D453357E1192</string>
+			<string>F5285C68-0B26-45E3-8E56-7908BD8D3C21</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1214,7 +1218,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02FG0Z1PN5N</string>
 			<key>SystemUUID</key>
-			<string>C97677F1-04C7-47DE-A53A-D453357E1192</string>
+			<string>F5285C68-0B26-45E3-8E56-7908BD8D3C21</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1231,7 +1235,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>C97677F1-04C7-47DE-A53A-D453357E1192</string>
+			<string>F5285C68-0B26-45E3-8E56-7908BD8D3C21</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1286,7 +1290,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02FG0Z1PN5N</string>
 			<key>SystemUUID</key>
-			<string>C97677F1-04C7-47DE-A53A-D453357E1192</string>
+			<string>F5285C68-0B26-45E3-8E56-7908BD8D3C21</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
