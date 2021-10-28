@@ -112,17 +112,17 @@
                 </dict>
                 <dict>
                     <key>Base</key>
-                    <string></string>
+                    <string>\_SB.PCI0.LPCB.HPET</string>
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>Rename EHC1 to EH01 (USB)</string>
+                    <string>HPET _CRS to XCRS</string>
                     <key>Count</key>
-                    <integer>0</integer>
+                    <integer>1</integer>
                     <key>Enabled</key>
                     <false/>
                     <key>Find</key>
-                    <data>RUhDMQ==</data>
+                    <data>X0NSUw==</data>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -130,7 +130,7 @@
                     <key>OemTableId</key>
                     <data></data>
                     <key>Replace</key>
-                    <data>RUgwMQ==</data>
+                    <data>WENSUw==</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -138,97 +138,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename EHC2 to EH02 (USB)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>RUhDMg==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
                     <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>RUgwMg==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename XHCI to XHC (USB)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>WEhDSQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WEhDXw==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename XHC1 to XHC (USB)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>WEhDMQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WEhDXw==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
                 </dict>
             </array>
             <key>Quirks</key>
@@ -302,7 +212,7 @@
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
                 <key>DevirtualiseMmio</key>
-                <false/>
+                <true/>
                 <key>DisableSingleUser</key>
                 <false/>
                 <key>DisableVariableWrite</key>
@@ -310,9 +220,9 @@
                 <key>DiscardHibernateMap</key>
                 <false/>
                 <key>EnableSafeModeSlide</key>
-                <false/>
-                <key>EnableWriteUnprotector</key>
                 <true/>
+                <key>EnableWriteUnprotector</key>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -322,13 +232,13 @@
                 <key>ProtectSecureBoot</key>
                 <false/>
                 <key>ProtectUefiServices</key>
-                <false/>
+                <true/>
                 <key>ProvideCustomSlide</key>
-                <false/>
+                <true/>
                 <key>ProvideMaxSlide</key>
                 <integer>0</integer>
                 <key>RebuildAppleMemoryMap</key>
-                <false/>
+                <true/>
                 <key>ResizeAppleGpuBars</key>
                 <integer>-1</integer>
                 <key>SetupVirtualMap</key>
@@ -336,34 +246,22 @@
                 <key>SignalAppleOS</key>
                 <false/>
                 <key>SyncRuntimePermissions</key>
-                <false/>
+                <true/>
             </dict>
         </dict>
         <key>DeviceProperties</key>
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
                 <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,31,3</string>
-                    <key>device_type</key>
-                    <string>Audio device</string>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
                     <key>layout-id</key>
-                    <data>CwAAAA==</data>
-                    <key>model</key>
-                    <string>???</string>
+                    <data></data>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>BwCbPg==</data>
-                    <key>device-id</key>
-                    <data>kj4AAA==</data>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -558,24 +456,6 @@
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
-                    <string>USBPower.kext</string>
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
@@ -861,7 +741,7 @@
                 <key>AppleCpuPmCfgLock</key>
                 <false/>
                 <key>AppleXcpmCfgLock</key>
-                <false/>
+                <true/>
                 <key>AppleXcpmExtraMsrs</key>
                 <false/>
                 <key>AppleXcpmForceBoost</key>
@@ -869,7 +749,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <false/>
+                <true/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -887,9 +767,9 @@
                 <key>LegacyCommpage</key>
                 <false/>
                 <key>PanicNoKextDump</key>
-                <false/>
+                <true/>
                 <key>PowerTimeoutKernelPanic</key>
-                <false/>
+                <true/>
                 <key>ProvideCurrentCpuInfo</key>
                 <false/>
                 <key>SetApfsTrimTimeout</key>
@@ -906,7 +786,7 @@
                 <key>FuzzyMatch</key>
                 <true/>
                 <key>KernelArch</key>
-                <string>x86_64</string>
+                <string>Auto</string>
                 <key>KernelCache</key>
                 <string>Auto</string>
             </dict>
@@ -922,13 +802,13 @@
                 <key>HibernateMode</key>
                 <string>None</string>
                 <key>HideAuxiliary</key>
-                <true/>
+                <false/>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
-                <integer>1</integer>
+                <integer>17</integer>
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
@@ -947,11 +827,11 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <false/>
-                <key>ApplePanic</key>
-                <false/>
-                <key>DisableWatchDog</key>
                 <true/>
+                <key>ApplePanic</key>
+                <true/>
+                <key>DisableWatchDog</key>
+                <false/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -997,7 +877,7 @@
                 <key>AuthRestart</key>
                 <false/>
                 <key>BlacklistAppleUpdate</key>
-                <true/>
+                <false/>
                 <key>DmgLoading</key>
                 <string>Signed</string>
                 <key>EnablePassword</key>
@@ -1023,17 +903,37 @@
                     <key>Arguments</key>
                     <string></string>
                     <key>Auxiliary</key>
-                    <false/>
+                    <true/>
                     <key>Comment</key>
                     <string>Not signed for security reasons</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Flavour</key>
                     <string>OpenShell:UEFIShell:Shell</string>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
                     <string>OpenShell.efi</string>
+                    <key>RealPath</key>
+                    <false/>
+                    <key>TextMode</key>
+                    <false/>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <false/>
+                    <key>Comment</key>
+                    <string>Memory testing utility</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Flavour</key>
+                    <string>MemTest</string>
+                    <key>Name</key>
+                    <string>memtest86</string>
+                    <key>Path</key>
+                    <string>memtest86/BOOTX64.efi</string>
                     <key>RealPath</key>
                     <false/>
                     <key>TextMode</key>
@@ -1070,7 +970,7 @@
                     <key>DefaultBackgroundColor</key>
                     <data>AAAAAA==</data>
                     <key>UIScale</key>
-                    <data>Ag==</data>
+                    <data>AQ==</data>
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
@@ -1082,7 +982,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>igfxonln=1</string>
+                    <string>alcid=1 igfxonln=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1145,44 +1045,13 @@
         <key>PlatformInfo</key>
         <dict>
             <key>Automatic</key>
-            <false/>
+            <true/>
             <key>CustomMemory</key>
             <false/>
-            <key>DataHub</key>
-            <dict>
-                <key>ARTFrequency</key>
-                <integer>0</integer>
-                <key>BoardProduct</key>
-                <string>Mac-CFF7D910A743CAAF</string>
-                <key>BoardRevision</key>
-                <data>AQ==</data>
-                <key>DevicePathsSupported</key>
-                <integer>1</integer>
-                <key>FSBFrequency</key>
-                <integer>0</integer>
-                <key>InitialTSC</key>
-                <integer>0</integer>
-                <key>PlatformName</key>
-                <string>platform</string>
-                <key>SmcBranch</key>
-                <data></data>
-                <key>SmcPlatform</key>
-                <data>ajE4NQAAAAA=</data>
-                <key>SmcRevision</key>
-                <data></data>
-                <key>StartupPowerEvents</key>
-                <integer>0</integer>
-                <key>SystemProductName</key>
-                <string>iMac20,1</string>
-                <key>SystemSerialNumber</key>
-                <string>C02FG0Z1PN5T</string>
-                <key>SystemUUID</key>
-                <string>A78D4BD5-5A47-4A8C-99F0-B15450205FAE</string>
-            </dict>
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
-                <false/>
+                <true/>
                 <key>MLB</key>
                 <string></string>
                 <key>MaxBIOSVersion</key>
@@ -1201,99 +1070,6 @@
                 <string></string>
                 <key>SystemUUID</key>
                 <string></string>
-            </dict>
-            <key>Memory</key>
-            <dict>
-                <key>DataWidth</key>
-                <integer>0</integer>
-                <key>Devices</key>
-                <array/>
-                <key>ErrorCorrection</key>
-                <integer>0</integer>
-                <key>FormFactor</key>
-                <integer>0</integer>
-                <key>MaxCapacity</key>
-                <integer>0</integer>
-                <key>TotalWidth</key>
-                <integer>0</integer>
-                <key>Type</key>
-                <integer>0</integer>
-                <key>TypeDetail</key>
-                <integer>0</integer>
-            </dict>
-            <key>PlatformNVRAM</key>
-            <dict>
-                <key>BID</key>
-                <string>Mac-CFF7D910A743CAAF</string>
-                <key>FirmwareFeatures</key>
-                <data>dvWP/QAAAAA=</data>
-                <key>FirmwareFeaturesMask</key>
-                <data>f//f/wAAAAA=</data>
-                <key>MLB</key>
-                <string>C021121084NPHCD8C</string>
-                <key>ROM</key>
-                <data>ESIzRFVm</data>
-                <key>SystemSerialNumber</key>
-                <string></string>
-                <key>SystemUUID</key>
-                <string>65900E97-C61A-44D1-A9B7-D1B093B2FAE1</string>
-            </dict>
-            <key>SMBIOS</key>
-            <dict>
-                <key>BIOSReleaseDate</key>
-                <string>01/06/2021</string>
-                <key>BIOSVendor</key>
-                <string></string>
-                <key>BIOSVersion</key>
-                <string>1554.80.3.0.0</string>
-                <key>BoardAssetTag</key>
-                <string>Base Board Asset Tag</string>
-                <key>BoardLocationInChassis</key>
-                <string>Part Component</string>
-                <key>BoardManufacturer</key>
-                <string></string>
-                <key>BoardProduct</key>
-                <string>Mac-CFF7D910A743CAAF</string>
-                <key>BoardSerialNumber</key>
-                <string>C02028301J9PHCDJA</string>
-                <key>BoardType</key>
-                <integer>10</integer>
-                <key>BoardVersion</key>
-                <string>iMac20,1</string>
-                <key>ChassisAssetTag</key>
-                <string>Asset Tag#</string>
-                <key>ChassisManufacturer</key>
-                <string></string>
-                <key>ChassisSerialNumber</key>
-                <string>C02D20EQPN5T</string>
-                <key>ChassisType</key>
-                <integer>13</integer>
-                <key>ChassisVersion</key>
-                <string>Mac-CFF7D910A743CAAF</string>
-                <key>FirmwareFeatures</key>
-                <data>dvWP/QAAAAA=</data>
-                <key>FirmwareFeaturesMask</key>
-                <data>f//f/wAAAAA=</data>
-                <key>PlatformFeature</key>
-                <integer>32</integer>
-                <key>ProcessorType</key>
-                <integer>0</integer>
-                <key>SmcVersion</key>
-                <data></data>
-                <key>SystemFamily</key>
-                <string>iMac</string>
-                <key>SystemManufacturer</key>
-                <string></string>
-                <key>SystemProductName</key>
-                <string>iMac20,1</string>
-                <key>SystemSKUNumber</key>
-                <string>System SKU#</string>
-                <key>SystemSerialNumber</key>
-                <string>C02FG0Z1PN5T</string>
-                <key>SystemUUID</key>
-                <string>A78D4BD5-5A47-4A8C-99F0-B15450205FAE</string>
-                <key>SystemVersion</key>
-                <string>1.0</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1332,7 +1108,7 @@
                 <key>GraphicsInputMirroring</key>
                 <false/>
                 <key>KeyInitialDelay</key>
-                <integer>0</integer>
+                <integer>50</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
                 <key>PointerSpeedDiv</key>
@@ -1401,7 +1177,7 @@
                 <key>PointerSupport</key>
                 <false/>
                 <key>PointerSupportMode</key>
-                <string>ASUS</string>
+                <string></string>
                 <key>TimerResolution</key>
                 <integer>50000</integer>
             </dict>
@@ -1480,7 +1256,7 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
-                <false/>
+                <true/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
@@ -1494,7 +1270,7 @@
                 <key>ReloadOptionRoms</key>
                 <false/>
                 <key>RequestBootVarRouting</key>
-                <false/>
+                <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>TscSyncTimeout</key>
