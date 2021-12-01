@@ -16,4 +16,5 @@ csm：关<br/>
 
 重新生成三码使用！
 
-MacOS Monterey无痛升级
+MacOS Monterey无痛升级<br/>
+<img src="https://github.com/wy164519317/i5-10400-ex-b460m-v5-hackintosh/blob/main/Monterey.png"/>
