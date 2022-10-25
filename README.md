@@ -18,4 +18,4 @@ csm：关<br/>
 重新生成三码使用！
 
 MacOS Monterey 无痛升级<br/>
-<img src="./Monterey.png"/>
+<img src="./Ventura.png"/>
